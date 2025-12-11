@@ -1,0 +1,21 @@
+{
+  "total_steps": 10000000,
+  "batch_size": 64,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "warmup_steps": 2000,
+  "grad_clip": 1.0,
+  "d_model": 256,
+  "n_layer": 6,
+  "n_head": 8,
+  "dropout": 0.05,
+  "max_len": 40,
+  "calc_dataset_size": 1000000,
+  "calc_p": 0.7,
+  "eval_every": 100000,
+  "eval_batch_size": 256,
+  "eval_max_examples": 5000,
+  "seed": 42,
+  "log_dir": "runs/20250908_154411",
+  "device": "cuda"
+}
